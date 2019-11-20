@@ -1,0 +1,45 @@
+---
+title: "Trabajo Final R"
+author: "Juan Carlos Aguirre"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    theme: united
+    highlight: tango
+---
+
+# Introduccion
+
+en esto hablamos sobre la introdccioon de las 2 paginas a trabajar
+
+# Pagina 1
+
+dljakjdlsajdljasn d dsjkadlkasjdlasd
+
+### puntos fuertes
+
+adjsljdljasldjlajd dljklajdlkasdlk dljlakd
+
+### porque no me gusto
+
+adjldjlajdljasdjljdldlsd
+esta web trata de hbalar de la prmiera pagina que se esta haciendo blah blah
+
+# Pagina 2 
+dskdls pag 2 de la web
+
+### puntos que mas me gustaron
+djqwkjdkla adsjkldjlasd kdjlasjdljd
+
+### puntos que no me agrandn
+djkljasdlkj jldkjaskjdlasd jlajd justo cunado tines un tema simpor 
+
+```{r echo=FALSE, warning=FALSE}
+knitr::kable(
+  mtcars[1:6, 1:6], caption = 'A subset of mtcars.'
+)
+```
