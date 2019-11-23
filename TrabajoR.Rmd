@@ -1,30 +1,58 @@
 ---
-title: "TrabajoR"
-author: "Juan Aguirre"
-date: "11/23/2019"
-output: html_document
+title: "Trabajo Final R"
+author: "Juan Carlos Aguirre"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    theme: united
+    highlight: tango
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Expresiones Regulares
 
-## R Markdown
+Las expresiones regulares (abreviadas como "expresiones regulares") son cadenas especiales que representan un patrón para que coincida en una operación de búsqueda. Son una herramienta importante en una amplia variedad de aplicaciones informáticas, desde lenguajes de programación como Java y Perl, hasta herramientas de procesamiento de texto como grep, sed y el editor de texto vim.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+En el siguente enlace puedes encontrar un cheat sheet que puede ayudar a utlizar lo basico de las expresiones regulares. [Tabla para R](https://rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+> __Tuve algunas dudas sobre la filosofía porque,si elaborabas una teoría filosófica,era difícil saber si ibas a poder probarla o si otras teorías tenían tan buena pretensión de creencia.__
 
-```{r cars}
-summary(cars)
-```
+> `r tufte::quote_footer('--- Stephen Cole Kleene ')`
 
-## Including Plots
+# Pagina de Expresiones Regulares
 
-You can also embed plots, for example:
+Me parece que en esta primer [pagina web](https://www.adictosaltrabajo.com/2015/01/29/regexsam/), tiene muy bueno contenido debido  a la foma de presentar en la cual te lleva con una pequena introduccion, te muestra la sintaxis y las formas en la que debes de trabajar con las expresiones. 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+### Puntos Fuertes
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Los puntos fuertes de la primer pagina a mi gusto son:
+
+1. La interfaz muy intuitiva y limpia a la ves.
+2. Facil de seguir la explicacion de las expresiones.
+3. Te brinda varios enlaces para poder ver los ejemplos.
+4. Podria ser un buen tutorial para principiantes.
+
+### Puntos Debiles
+
+Aspectos que no me agradaron de la pagina, fue que uno de los enlaces no esta funcionando, pero en terminos generales me parecio una buena pagina completa.
+
+
+# Segunda Pagina Expersiones Regualares
+
+En esta segundo [Pagina Web](https://eldesvandejose.com/2017/08/18/expresiones-regulares-general/), no encontramos con algo muy diferente a la primera dado que para mi gusto, esta muy cargada y no se termina de entender mucho la finalidad de ella.
+
+### Puntos Furtes
+
+Como puntos fuertes la verdad que no pude encontarle nada, talves la facilidad para poder descargar la informacion en cualquier formato de manera rapida.
+
+### Puntos Debiles
+
+Los puntos debiles de la pagina son:
+
+1. Muy cargada de informacion.
+2. Los colores en los cuales se ponen la explicacion son muy fuertes.
+3. No cuenta con muchos ejemplos de como utilizar las expresiones.
+4. Carece de enlaces que la primera pagina contenia varios.
