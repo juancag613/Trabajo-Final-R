@@ -18,9 +18,12 @@ Las expresiones regulares (abreviadas como "expresiones regulares") son cadenas 
 
 En el siguente enlace puedes encontrar un cheat sheet que puede ayudar a utlizar lo basico de las expresiones regulares. [Tabla para R](https://rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 
-> __Tuve algunas dudas sobre la filosofía porque,si elaborabas una teoría filosófica,era difícil saber si ibas a poder probarla o si otras teorías tenían tan buena pretensión de creencia.__
 
+
+> _Tuve algunas dudas sobre la filosofía porque,si elaborabas una teoría filosófica,era difícil saber si ibas a poder probarla o si otras teorías tenían tan buena pretensión de creencia._
 > `r tufte::quote_footer('--- Stephen Cole Kleene ')`
+
+
 
 # Pagina de Expresiones Regulares
 
