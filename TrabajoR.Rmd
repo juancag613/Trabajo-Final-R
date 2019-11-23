@@ -56,3 +56,4 @@ Los puntos debiles de la pagina son:
 2. Los colores en los cuales se ponen la explicacion son muy fuertes.
 3. No cuenta con muchos ejemplos de como utilizar las expresiones.
 4. Carece de enlaces que la primera pagina contenia varios.
+
