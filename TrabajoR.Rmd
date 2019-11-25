@@ -116,7 +116,8 @@ ggplot(ChickWeight2, aes(Diet, Time)) + geom_boxplot()
 
 # Tabla
 
-Tabla completa de los datos mtcars interactiva, donde se podra observar todos los datos que se encuentran en el datatable y poder buscarlos informacion, decidir cuantos elementos quieres que se muestren en tu data, 
+Tabla completa de los datos mtcars interactiva, donde se podra observar todos los datos que se encuentran en el datatable y poder buscarlos informacion, decidir cuantos elementos quieres que se muestren en tu data.
+
 
 ```{r, echo=FALSE}
 library(DT)
