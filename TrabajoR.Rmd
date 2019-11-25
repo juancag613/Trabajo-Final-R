@@ -110,3 +110,23 @@ ggplot(ChickWeight2, aes(Time, weight, color = Diet)) +
   theme(legend.position = 'bottom')
 ```
 
+```{r fig-main, fig.cap = "Otro grafico de Dieta vs Tiempo.", cache=TRUE, message=FALSE, echo=FALSE}
+ggplot(ChickWeight2, aes(Diet, Time)) + geom_boxplot()
+```
+
+# Tabla
+
+Tabla completa de los datos mtcars interactiva, donde se podra observar todos los datos que se encuentran en el datatable y poder buscarlos informacion, decidir cuantos elementos quieres que se muestren en tu data, 
+
+```{r, echo=FALSE}
+library(DT)
+datatable(mtcars)
+```
+
+```{r, echo=FALSE}
+data(BodyWeight,package="nlme")
+p <- qplot(Time,weight,data=BodyWeight,colour=Rat,geom="line",facets=.~Diet)
+direct.label(p,"first.qp")
+direct.label(p,"last.qp")
+
+
