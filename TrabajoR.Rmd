@@ -96,3 +96,17 @@ El audio me parece que es optimo, para poder entender mejor el video que a difer
 
 No muestra ciertos contenidos que me gustaria que abarcara.
 Me parece que es muy corto para abarcar un tema que se puede extender mucho. 
+
+# Graficos
+### ggplot2
+
+En es siguiente grafico analizamos la libreria de Chicken Weight, y comparamos como se comporta la dieta de los animales, con el tiempo y su peso
+
+```{r fig-margin, fig.margin = TRUE, fig.cap = "Time vs Weight, coloreado por Tipo de Dieta", fig.width=5.5, fig.height=5.5, cache=TRUE, message=FALSE, echo=FALSE}
+library(ggplot2)
+ChickWeight2 <- ChickWeight
+ggplot(ChickWeight2, aes(Time, weight, color = Diet)) +
+  geom_point() + geom_smooth() +
+  theme(legend.position = 'bottom')
+```
+
