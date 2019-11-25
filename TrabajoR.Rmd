@@ -60,3 +60,39 @@ Los puntos debiles de la pagina son:
 3. No cuenta con muchos ejemplos de como utilizar las expresiones.
 4. Carece de enlaces que la primera pagina contenia varios.
 
+# Markdown
+
+Markdown es un lenguaje de marcado ligero con sintaxis de formato de texto sin formato. Su diseño le permite convertirse a muchos formatos de salida, pero la herramienta original con el mismo nombre solo admite HTML. Markdown se usa a menudo para formatear archivos Readme, para escribir mensajes en foros de discusión en línea y para crear texto enriquecido utilizando un editor de texto sin formato.
+
+# Video 1 Markdown
+
+<a href="https://www.youtube.com/watch?v=tE8cgL1P-U0" target="_blank"><img src="http://img.youtube.com/vi/tE8cgL1P-U0/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+En el siguiente video es el primero en la comparativa y me parece que explica muy bien la forma de utilizar el markdown da muy buenos ejemplos y creo que se desenvuelve bien a la forma de explicar dicho video.
+
+### Puntos Fuertes
+
+Muy video explicando la aplicacion de Rmarkdown, explica muy bien y te muestra otros enlaces a otras paginas donde podriamos, buscar mas informacion si asi lo deseramos.
+
+### Puntos Negativos
+
+El audio del video me parece que no es tan optimo.
+Intervencion de otras personas en algunas partes del video ajenas a la explicacion.
+
+# Video 2 Markadown 
+
+<a href="https://www.youtube.com/watch?v=u4ZdvYXjsIo" target="_blank"><img 
+src="http://img.youtube.com/vi/u4ZdvYXjsIo/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+Me parece que el video esta bien en terminos generales, pero creo que no explica ciertas cosas, que en el video anterior si abarca.
+
+### Puntos Fuertes
+
+El audio me parece que es optimo, para poder entender mejor el video que a diferencia del otro no se escuchaba muy bien.
+
+### Puntos Negativos
+
+No muestra ciertos contenidos que me gustaria que abarcara.
+Me parece que es muy corto para abarcar un tema que se puede extender mucho. 
